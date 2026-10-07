@@ -8,14 +8,22 @@ The work covers data quality review, privacy compliance, class imbalance assessm
 
 ## Dataset
 Source: - <a href="https://docs.google.com/spreadsheets/d/1TqYGy-pIXw5V8xWQAcEO2iE8L0U6FP2P/edit?usp=drive_link&ouid=113197400564921458533&rtpof=true&sd=true">Dataset</a>
+
 Raw size: 200,002 rows, 22 columns
+
 Cleaned size: 200,000 rows, 19 columns
+
 Time period: January 2025 (single month)
+
 Target variable: is_fraud (0 = legitimate, 1 = fraud)
+
 ## Tools Used
 SQL — data cleaning, transformation, and all exploratory analysis
+
 Power BI — interactive dashboard and DAX measures
+
 Excel — spot checks on small extracts
+
 ## Project Structure
 ```text
 ├── README.md
